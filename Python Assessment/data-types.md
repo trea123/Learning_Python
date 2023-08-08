@@ -268,18 +268,45 @@ In summary, escape sequences in Python strings are a powerful tool for including
 
 ---
 
-1. *How would you convert a number to a string? And a string to a number?*
-
-
-
----
-
 
 ## Booleans
 
-1. *What values in Python are considered “false”?*
+1. *What values in Python are considered “falsy”?*
 
+In Python, values that are considered "false" in boolean context are those that are evaluated as `False` when used in conditions like `if` statements or boolean operations. These values are often referred to as "**falsy**" values. The following values are considered false:
 
+1. `False`: The boolean value `False` itself.
+2. `None`: The special singleton value representing the absence of a value.
+3. `0`: The integer zero.
+4. `0.0`: The floating-point zero.
+5. `''`: An empty string.
+6. `[]`: An empty list.
+7. `()`: An empty tuple.
+8. `{}`: An empty dictionary.
+9. `set()`: An empty set.
+
+For example, in an `if` statement, these **falsy** values would evaluate to `False`, while any other **non-falsy** value would evaluate to `True`:
+
+```python
+if False:
+    print("This won't be printed")
+
+if None:
+    print("This won't be printed")
+
+if 0:
+    print("This won't be printed")
+
+if '':
+    print("This won't be printed")
+
+if []:
+    print("This won't be printed")
+
+# And so on...
+```
+
+All other values, whether they are numbers other than 0, non-empty strings, lists, dictionaries, or custom objects, are considered "true" or "**truthy**" when used in boolean contexts.
 
 ---
 
