@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "485aad1a920bd3fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python Assessment/builtin-functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b43ecb82addd4be0",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Assessment/overview.md",
+                "file": "Python Assessment/builtin-functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Assessment/overview.md",
+                "file": "Python Assessment/builtin-functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Assessment/overview.md"
+                "file": "Python Assessment/builtin-functions.md"
               }
             }
           }
@@ -158,12 +171,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a044145ff9cfd075",
+  "active": "485aad1a920bd3fc",
   "lastOpenFiles": [
-    "Jupyter-Notebook/first-notebook.md",
-    "Jupyter-Notebook/first-notebook.ipynb",
-    "Jupyter-Notebook/Untitled.ipynb",
-    "Jupyter-Notebook",
+    "Definitions/Conditionals.md",
     "Python Assessment/builtin-functions.md",
     "Python Assessment/control-flow-logic.md",
     "Python Assessment/data-structures.md",
@@ -171,8 +181,11 @@
     "Python Assessment/functions.md",
     "Python Assessment/live-code-challenges.md",
     "Python Assessment/overview.md",
+    "Jupyter-Notebook/first-notebook.md",
+    "Jupyter-Notebook/first-notebook.ipynb",
+    "Jupyter-Notebook/Untitled.ipynb",
+    "Jupyter-Notebook",
     "Python Assessment/Untitled",
-    "Definitions/Conditionals.md",
     "Definitions",
     "Definitions/While loop.md",
     "Definitions/Tuples.md",
