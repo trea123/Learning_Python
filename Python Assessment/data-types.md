@@ -275,15 +275,15 @@ In summary, escape sequences in Python strings are a powerful tool for including
 
 In Python, values that are considered "false" in boolean context are those that are evaluated as `False` when used in conditions like `if` statements or boolean operations. These values are often referred to as "**falsy**" values. The following values are considered false:
 
-1. `False`: The boolean value `False` itself.
-2. `None`: The special singleton value representing the absence of a value.
-3. `0`: The integer zero.
-4. `0.0`: The floating-point zero.
-5. `''`: An empty string.
-6. `[]`: An empty list.
-7. `()`: An empty tuple.
-8. `{}`: An empty dictionary.
-9. `set()`: An empty set.
++ `False`: The boolean value `False` itself.
++ `None`: The special singleton value representing the absence of a value.
++ `0`: The integer zero.
++ `0.0`: The floating-point zero.
++ `''`: An empty string.
++ `[]`: An empty list.
++ `()`: An empty tuple.
++ `{}`: An empty dictionary.
++ `set()`: An empty set.
 
 For example, in an `if` statement, these **falsy** values would evaluate to `False`, while any other **non-falsy** value would evaluate to `True`:
 
@@ -314,13 +314,13 @@ All other values, whether they are numbers other than 0, non-empty strings, list
 
 In Python, both `==` and `is` are used for comparison, but they serve different purposes when it comes to comparing variables. The `==` operator is used to check whether the values of two objects are equal or not. The `is` operator, on the other hand, is used to check if two variables refer to the same object in memory.
 
-Here is an example of the `==` oerrator 
+Here is an example of the `==` operator.
 
 ```python
 x = [1, 2, 3]
 y = [1, 2, 3]
 
-print(x == y) # False
+print(x == y) # True
 ```
 
 Here are two examples of the `is` operator.
@@ -328,7 +328,7 @@ Here are two examples of the `is` operator.
 x = [1, 2, 3]
 y = [1, 2, 3]
 
-print( x is y) # False
+print(x is y) # False
 ```
 
 
@@ -336,10 +336,10 @@ print( x is y) # False
 x = [1, 2, 3]
 y = x
 
-print(x  is y) # True
+print(x is y) # True
 ```
 
-In example one, the statement is false because, x and y carry the same variables but do not carry the same object memory.
+In example one, the statement is false because, x and y carry the same variables but do not carry the same object memory; Whereas in example two, y is set to be equal to x, giving it the same object in memory.
 
 ---
 
@@ -363,7 +363,7 @@ x = 10
 y = 20
 
 if x == 10 or y == 30:
-	print("One of conditions are true")
+	print("One of these conditions are true")
 
 ```
 
@@ -384,7 +384,7 @@ Short-circuit evaluation is a concept used in boolean operations (specifically w
 
 Let's look at how short-circuit evaluation works for both the `and` and `or` operators:
 
-1. **Short-Circuit Evaluation with `and`:**
++ **Short-Circuit Evaluation with `and`:**
    When using the `and` operator to combine two conditions, if the first condition is `False`, the overall result will be `False` regardless of the value of the second condition. In this case, Python does not evaluate the second condition because it is not necessary to determine the final result.
 
    ```python
@@ -393,7 +393,7 @@ Let's look at how short-circuit evaluation works for both the `and` and `or` ope
 
    If `condition1` is `False`, the result of the entire expression will be `False`, so there's no need to evaluate `condition2`.
 
-2. **Short-Circuit Evaluation with `or`:**
++ **Short-Circuit Evaluation with `or`:**
    When using the `or` operator to combine two conditions, if the first condition is `True`, the overall result will be `True` regardless of the value of the second condition. In this case, Python does not evaluate the second condition because it is not necessary to determine the final result.
 
    ```python
@@ -414,3 +414,7 @@ if x > 0 and (10 / x) > 1:
 In this example, if `x` is negative, the `and` operator short-circuits after evaluating the first condition (`x > 0`) as `False`, and the division operation (`10 / x`) is never executed, preventing a potential division by zero error.
 
 Keep in mind that while short-circuit evaluation can be efficient, you should also consider code readability and correctness. Sometimes, using parentheses to explicitly group conditions can make the code more understandable, even if it prevents some short-circuiting.
+
+---
+
+_This [link](overview) will bring you back to the main assessment._

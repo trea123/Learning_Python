@@ -13,9 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Assessment/data-types.md",
+                "file": "Python Assessment/overview.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "b43ecb82addd4be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Definitions/Conditionals.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python Assessment/data-types.md",
+                "file": "Python Assessment/overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python Assessment/data-types.md",
+                "file": "Python Assessment/overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python Assessment/data-types.md"
+                "file": "Python Assessment/overview.md"
               }
             }
           }
@@ -147,5 +159,36 @@
     }
   },
   "active": "a044145ff9cfd075",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Jupyter-Notebook/first-notebook.md",
+    "Jupyter-Notebook/first-notebook.ipynb",
+    "Jupyter-Notebook/Untitled.ipynb",
+    "Jupyter-Notebook",
+    "Python Assessment/builtin-functions.md",
+    "Python Assessment/control-flow-logic.md",
+    "Python Assessment/data-structures.md",
+    "Python Assessment/data-types.md",
+    "Python Assessment/functions.md",
+    "Python Assessment/live-code-challenges.md",
+    "Python Assessment/overview.md",
+    "Python Assessment/Untitled",
+    "Definitions/Conditionals.md",
+    "Definitions",
+    "Definitions/While loop.md",
+    "Definitions/Tuples.md",
+    "Definitions/Strings.md",
+    "Definitions/string-methods-find-and-index.md",
+    "Definitions/Sets.md",
+    "Definitions/round.md",
+    "Definitions/README.md",
+    "Definitions/raw-strings.md",
+    "Definitions/Numbers.md",
+    "Definitions/Lists.md",
+    "Definitions/Functions.md",
+    "Definitions/For loops.md",
+    "Definitions/floor_division.md",
+    "Definitions/escape-sequences.md",
+    "Definitions/Dictionaries.md",
+    "Definitions/decimal_division.md"
+  ]
 }
